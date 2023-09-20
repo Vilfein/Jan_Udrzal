@@ -13,6 +13,7 @@
             //DB.Vyhledej("Lucie");
 
             DB.Vypis();
+            DB.PridatZaznam(new Osoba("Marek", 44));
 
         }
     }
